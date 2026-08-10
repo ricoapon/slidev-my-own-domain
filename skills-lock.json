@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "slidev-theme-narrative": {
+      "source": "ricoapon/slidev-theme-narrative",
+      "sourceType": "github",
+      "skillPath": "skills/slidev-theme-narrative/SKILL.md",
+      "computedHash": "a531f36e4a59f1e2e6522d7a8985b072c449f7764d304f6df278836bd490636d"
+    }
+  }
+}
