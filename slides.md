@@ -11,16 +11,21 @@ background: /cover.jpg
 
 # How A Friend Convinced Me To Buy My Own <u>Domain</u>
 
+<!--
+Hi everybody, I am going to tell you a story today. I am going to talk about how it came to be that I bought my own 
+domain. Let's start with the most obvious thing.
+-->
+
 ---
 layout: cover
 background: /retro.jpg
 ---
 
-# I love programming 🤓
+# I love programming
 
 <!--
-I love programming. I'm a real nerd and I love it. It has been my hobby for most of my life...
-and somewhere along the way, it also became my job.
+I love programming. I think that is something we all have in common here. I started already when I was very young 
+with programming in Visual Basic. I changed languages along the way, but I still program quite a bit.
 -->
 
 ---
@@ -28,27 +33,11 @@ layout: cover
 background: /code.jpg
 ---
 
-# Hobby → job → bigger
-
-Becoming a Software Engineer made me better — and my side projects grew and grew.
+# Bigger, more complex projects
 
 <!--
-Since I started working as a software engineer my skills improved a lot. And my little hobby
-projects? They just kept getting bigger and bigger.
--->
-
----
-layout: cover
-background: /rain.jpg
----
-
-# Winter is coding season
-
-<div class="text-xl opacity-80 mt-2">Sunny outside → I'm out. Raining or storming → I'm building. ⛈️</div>
-
-<!--
-How much I code outside work depends on the weather. Warm and sunny? I'm outside. But when it's
-raining or storming — that's my favourite time to sit inside and build something.
+It started as a hobby when I was younger, and now it is my job as a software engineer. Since then, my skills have
+improved a lot. And that meant that my hobby projects also got bigger and more complex.
 -->
 
 ---
@@ -59,7 +48,8 @@ background: /friends.jpg
 # I love to share what I build
 
 <!--
-And when I build something, I really want to show it to other people. That's half the fun.
+The projects I was building became more interesting and that meant I also wanted to share them with other people. I 
+even started making projects for other people to help them with a specific problem.
 -->
 
 ---
@@ -69,25 +59,9 @@ image: /phone.jpg
 
 # Just open the link
 
-No install. Any phone. Anywhere.
-
 <!--
-The easiest way to share is a website. I send you a link, you open it — nothing to install.
-On your phone, hanging out with friends, you can show it right there and then.
--->
-
----
-layout: image-left
-image: /deploy.jpg
----
-
-# I publish it for free
-
-Open-source repo → **GitHub Pages** serves it straight from the code.
-
-<!--
-I host all of this for free on GitHub. If your code is open source, GitHub Pages will publish
-your website for nothing. You push a commit, a workflow builds it, and it's live. No server, no bill.
+I didn't want people to download a JAR and run it on their computer. I have learned that many friends don't really
+take the effort to do that. A website that they can open on their phone really is the best way if you want to share it.
 -->
 
 ---
@@ -96,19 +70,21 @@ layout: statement
 
 # FREE
 
-My favourite price.
+Host it on GitHub Pages.
 
 <!--
-Free. I love free stuff.
-(Pause. Let it land.)
+I wanted to host my apps for free. I decided on using GitHub Pages. You all know GitHub. You might not know that
+you can also host static websites for free as part of GitHub, which is called GitHub Pages.
 -->
 
 ---
-layout: cover
-background: /amsterdam.jpg
+layout: image-left
+image: /deploy.jpg
 ---
 
-# I'm Dutch, after all
+# JavaScript
+
+The necessary evil.
 
 <div style="display:inline-block; width:104px; height:70px; border-radius:6px; overflow:hidden; margin-top:20px; box-shadow:0 6px 24px #000a;">
   <div style="height:33.33%; background:#AE1C28;"></div>
@@ -117,8 +93,9 @@ background: /amsterdam.jpg
 </div>
 
 <!--
-I mean... I'm Dutch. 'Free' is basically our national love language.
-(This is the laugh line — hold for the room.)
+Static websites means you can only host HTML/JS/CSS stuff. And yeah, that means you have to do JavaScript. I used
+Angular, so TypeScript. I am still not a fan of it, but yeah I can host it for free. You do what the job requires.
+I am Dutch after all.
 -->
 
 ---
@@ -128,11 +105,12 @@ background: /matrix.jpg
 
 # One small catch
 
-<div class="text-xl opacity-80 mt-2">You don't get to choose the name. You get <code>something.github.io</code>.</div>
+<div class="text-xl opacity-80 mt-2">You don't pick the name. You get <code>&lt;username&gt;.github.io/&lt;project&gt;</code>.</div>
 
 <!--
-There's one downside. On GitHub Pages you don't get to pick a nice name — you get some random
-text, dot github dot io. Not exactly memorable.
+When you create your site, it uses a default structure for your URL: `<username>.github.io/<projectname>`.
+It is a predictable name, but maybe not the nicest name. Especially when you have a weird username or when you send
+it to people that have no clue what GitHub is.
 -->
 
 ---
@@ -146,8 +124,8 @@ layout: center
 </div>
 
 <!--
-A few years ago I sent my friend Alain a link to test a game I was making. He liked the game,
-no real feedback there. But the link? He hated it. He said: why don't you just buy ricoapon.nl?
+A few years ago I sent my friend Alain a link to test a game I was making called Space Points. He wanted to be my
+tester. He liked the game, but he had some interesting feedback: why don't you just buy ricoapon.nl?
 -->
 
 ---
@@ -157,10 +135,11 @@ background: /burning.jpg
 
 # "That's a waste of money"
 
-<div class="text-xl opacity-80 mt-2">— me, being cheap</div>
+<div class="text-xl opacity-80 mt-2">— me, being Dutch</div>
 
 <!--
-My first thought was: that's a waste of money. Why would I ever pay for that?
+Like I said, I am Dutch, so I thought this would be a waste of money. The current URL just worked fine, right?
+Why should I put in effort to change something that already worked?
 -->
 
 ---
@@ -173,19 +152,8 @@ image: /unfinished.jpg
 Half-finished · unpolished · abandoned the moment I lost interest.
 
 <!--
-They're just hobby projects. Most aren't polished, many aren't finished — a lot are just an idea
-I played with for a weekend and then dropped. Not worth a real domain, I figured.
--->
-
----
-layout: cover
-background: /discuss.jpg
----
-
-# My friend disagreed
-
-<!--
-Alain completely disagreed with me.
+They are also just hobby projects. Most of them aren't polished, they are often not even finished. A lot of them
+are just an idea I played with for a weekend and then abandoned. They aren't worth their own domain.
 -->
 
 ---
@@ -194,29 +162,14 @@ layout: statement
 
 <div style="max-width: 780px; text-align:center;">
 <div style="font-size:1.9rem; line-height:1.35; font-weight:600;">
-"This is one of your biggest hobbies. Your own domain looks <span class="accent">way more professional</span>. And you've got a job that pays well — <span class="accent">how can money ever be the argument?</span>"
+"This is your biggest hobby. You spend so much time on it. <span class="accent">How can money ever be the argument?</span> Besides, it looks <span class="accent">way more professional</span>."
 </div>
 <div style="margin-top:1.2rem; opacity:.6;">— Alain</div>
 </div>
 
 <!--
-He said: this is one of your biggest hobbies, you spend so much time on all these websites,
-your own domain looks so much more professional — and you have a job that pays well,
-so how can money ever be the argument?
--->
-
----
-layout: statement
----
-
-<div style="text-align:center;">
-<div style="font-size:3rem; font-weight:700;">I had no answer.</div>
-<div style="font-size:1.6rem; margin-top:1rem; opacity:.85;">So… "f*ck it, let's just buy it."</div>
-</div>
-
-<!--
-And honestly... I had no good answer to that. So I thought: you know what — fine.
-F*ck it, let's just buy it.
+Alain disagreed. He said: this is your biggest hobby. You spend so much time on it. And you have a job that
+pays well. How can money ever be an argument? Besides, it looks way more professional when you do it.
 -->
 
 ---
@@ -224,12 +177,50 @@ layout: cover
 background: /space.jpg
 ---
 
-# I bought ricoapon.nl
+# F*ck it — I bought ricoapon.nl
 
-<div class="text-2xl opacity-80 mt-2">Same. Day.</div>
+<div class="text-2xl opacity-80 mt-2">No counterargument. Same day.</div>
 
 <!--
-That same day, I bought my own domain. ricoapon.nl was mine.
+I didn't have a counterargument. So fuck it, let's buy a domain. I did it the same day that I talked to Alain. The domain
+was still available and I bought ricoapon.nl.
+-->
+
+---
+layout: center
+---
+
+# Ok, now what?
+
+<div style="margin-top:18px; font-family:ui-monospace,monospace; background:#0d1117; border:1px solid #30363d; border-radius:10px; padding:16px 20px; display:inline-block; text-align:left; color:#8b949e;">
+<div style="color:#c9d1d9;">$ how does DNS actually work?</div>
+<div style="margin-top:8px;">→ read a tutorial</div>
+<div>→ find the GitHub Pages manual</div>
+<div>→ follow it step by step</div>
+</div>
+
+<!--
+Ok, now what? I didn't know anything about DNS records or how it worked. So the first thing I did was lookup a
+tutorial on that. I wanted to make it work specifically for GitHub Pages, for which there are plenty of good
+manuals on what to exactly do.
+-->
+
+---
+layout: center
+---
+
+# One domain, many apps
+
+<div style="margin-top:18px; font-family:ui-monospace,monospace; font-size:1.15rem; line-height:1.9; display:inline-block; text-align:left;">
+<div><b style="color:var(--accent);">ricoapon.nl</b> <span style="opacity:.6;">— my portfolio</span></div>
+<div style="opacity:.85;">├─ spacepoints<span style="opacity:.6;">.ricoapon.nl</span></div>
+<div style="opacity:.85;">├─ arismachine<span style="opacity:.6;">.ricoapon.nl</span></div>
+<div style="opacity:.5;">└─ …a subdomain per project</div>
+</div>
+
+<!--
+I wanted to use my domain for many websites. The main website `ricoapon.nl` would be my portfolio website.
+Where would I host all my apps? I create subdomains like `spacepoints.ricoapon.nl` and `arismachine.ricoapon.nl`.
 -->
 
 ---
@@ -242,16 +233,16 @@ layout: center
 
 <div style="flex:1; min-width:300px; background:#0d1117; border:1px solid #30363d; border-radius:10px; padding:18px 20px; font-family:ui-monospace,monospace;">
   <div style="color:#c9d1d9; font-weight:600; margin-bottom:10px;">Pages › Custom domain</div>
-  <div style="background:#010409; border:1px solid #30363d; border-radius:6px; padding:8px 10px; color:#c9d1d9;">myowndomain.ricoapon.nl</div>
+  <div style="background:#010409; border:1px solid #30363d; border-radius:6px; padding:8px 10px; color:#c9d1d9;">spacepoints.ricoapon.nl</div>
   <div style="color:#3fb950; margin-top:10px;">✓ DNS check successful</div>
   <div style="color:#c9d1d9; margin-top:12px;"><span style="display:inline-block;width:14px;height:14px;background:#238636;border-radius:3px;text-align:center;line-height:14px;color:#fff;">✓</span> Enforce HTTPS</div>
-  <div style="color:#8b949e; margin-top:12px; font-size:.85rem;">Your site is live at<br><span style="color:#58a6ff;">https://myowndomain.ricoapon.nl</span></div>
+  <div style="color:#8b949e; margin-top:12px; font-size:.85rem;">Your site is live at<br><span style="color:#58a6ff;">https://spacepoints.ricoapon.nl</span></div>
 </div>
 
 <div style="flex:1; min-width:260px; font-size:1.15rem; line-height:1.9;">
 
 - Add a <code>CNAME</code> record → point DNS at GitHub
-- One domain, <b>a subdomain per project</b>
+- Fill in the URL in the repository settings
 - GitHub does the HTTPS certificate for me
 - ...even <b>these slides</b> are served from it
 
@@ -260,41 +251,67 @@ layout: center
 </div>
 
 <!--
-Technically it's dead simple. In each repo's Pages settings you set a custom domain, add one
-CNAME record in your DNS, and GitHub even handles the HTTPS certificate. Every project gets its
-own subdomain. These very slides? Also on GitHub Pages, at myowndomain.ricoapon.nl.
-NOTE FOR RICO: swap this mock for a real screenshot of your own Pages settings — drop it in
-public/ (e.g. gh-pages-settings.png) and replace this block with ![](/gh-pages-settings.png).
+When I create a new GitHub Pages right now, it is very simple: I create a new CNAME record on a subdomain and
+fill in the URL in the repository settings. GitHub also handles certificates, so the site is accessible through HTTPS.
 -->
 
 ---
 layout: center
 ---
 
-# 23 websites and counting
+# 26 websites and counting
 
 <div class="mt-6" style="font-size:1.15rem; color:var(--text-secondary); line-height:1.9;">
 Dutch Wordle&nbsp;·&nbsp; Space Points&nbsp;·&nbsp; Aris Machine&nbsp;·&nbsp; Elite Four
-<div style="opacity:.7; margin-top:2px;">…and 19 more</div>
+<div style="opacity:.7; margin-top:2px;">…and 22 more</div>
 </div>
 
 <!--
-Since that purchase I've gone a little overboard. I recently counted — twenty-three published
-websites! Most will never be finished, but I still think it's awesome, and I'm really glad
-Alain convinced me to do it.
-NOTE FOR RICO: set the number in the title AND "…and 19 more" to your real count (title minus the
-four named here). Swap the four favourites for whichever you'd rather show off.
+Over the years I have created many more applications that I published under a different subdomain.
+I counted last week and I have 26 already. Only a few are actually finished and still used. The rest
+was just a fun small project.
+NOTE FOR RICO: swap the four named favourites for whichever you'd rather show off; "…and 22 more" = 26 minus the four.
+-->
+
+---
+layout: center
+---
+
+# People google my name
+
+<div style="max-width:520px; margin:18px auto 0; text-align:left; background:var(--bg-alt); border:1px solid var(--hairline); border-radius:10px; padding:16px 18px;">
+  <div style="font-size:.8rem; color:#8ab4f8;">ricoapon.nl</div>
+  <div style="font-size:1.25rem; color:#8ab4f8; margin-top:2px;">Rico Apon — projects &amp; apps</div>
+  <div style="font-size:.9rem; opacity:.7; margin-top:4px;">A collection of the things I build in my spare time…</div>
+</div>
+
+<!--
+I am really happy and also proud that I have my own domain with all these apps. Sometimes people google my name and
+then they find my website. I think it is cool and I can highly recommend that you do the same.
 -->
 
 ---
 layout: cover
-background: /coins.jpg
+background: /money.jpg
 ---
 
 # And the bill?
 
+<div class="text-xl opacity-80 mt-2">One final question.</div>
+
 <!--
-And do you know how much all of this costs me to keep running? Five euros a year.
-Best five euros I spend. Thanks, Alain.
-(Big finish — land it right on 5:00.)
+And there is one final question that I will answer to finish the story. I was bothered by the cost.
+How much did it actually cost me in the end?
+-->
+
+---
+layout: statement
+---
+
+# €5 a year
+
+Thank you for listening!
+
+<!--
+Only 5 euro's a year. Thank you for listening to my presentation!
 -->
