@@ -7,7 +7,8 @@ const DURATION = 15
 
 const { next, currentPage, total } = useNav()
 
-const running = ref(true)
+// Always start paused.
+const running = ref(false)
 const elapsed = ref(0)
 let lastTs = 0
 let raf = 0
