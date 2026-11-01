@@ -207,32 +207,42 @@ manuals on what to exactly do.
 layout: center
 ---
 
-# How it actually works
+# Technical configuration
 
-<div style="display:flex; gap:28px; align-items:center; margin-top:18px; flex-wrap:wrap;">
-
-<div style="flex:1; min-width:300px; background:#0d1117; border:1px solid #30363d; border-radius:10px; padding:18px 20px; font-family:ui-monospace,monospace;">
-  <div style="color:#c9d1d9; font-weight:600; margin-bottom:10px;">Pages › Custom domain</div>
-  <div style="background:#010409; border:1px solid #30363d; border-radius:6px; padding:8px 10px; color:#c9d1d9;">spacepoints.ricoapon.nl</div>
-  <div style="color:#3fb950; margin-top:10px;">✓ DNS check successful</div>
-  <div style="color:#c9d1d9; margin-top:12px;"><span style="display:inline-block;width:14px;height:14px;background:#238636;border-radius:3px;text-align:center;line-height:14px;color:#fff;">✓</span> Enforce HTTPS</div>
-  <div style="color:#8b949e; margin-top:12px; font-size:.85rem;">Your site is live at<br><span style="color:#58a6ff;">https://spacepoints.ricoapon.nl</span></div>
-</div>
-
-<div style="flex:1; min-width:260px; font-size:1.15rem; line-height:1.9;">
-
-- Add a <code>CNAME</code> record → point DNS at GitHub
-- Fill in the URL in the repository settings
-- GitHub handles the HTTPS certificate
-- Even <b>these slides</b> are served from it!
-
-</div>
-
+<div style="max-width:740px; margin:24px auto 0; text-align:left; display:flex; flex-direction:column; gap:18px;">
+  <div style="background:var(--bg-alt); border:1px solid var(--hairline); border-radius:10px; padding:16px 20px;">
+    <div class="muted">Add CNAME record (= alias for another domain)</div>
+    <div style="font-family:ui-monospace,monospace; margin-top:10px;">spacepoints.ricoapon.nl → &lt;username&gt;.github.io</div>
+  </div>
+  <div style="background:var(--bg-alt); border:1px solid var(--hairline); border-radius:10px; padding:16px 20px;">
+    <div class="muted">In the repository: Settings → Pages → Custom domain</div>
+    <div style="font-family:ui-monospace,monospace; margin-top:10px; color:var(--accent);">spacepoints.ricoapon.nl</div>
+  </div>
 </div>
 
 <!--
-When I create a new GitHub Pages right now, it is very simple: I create a new CNAME record on a subdomain and
-fill in the URL in the repository settings. GitHub also handles certificates, so the site is accessible through HTTPS.
+At my domain provider, I add a CNAME record: an alias pointing my subdomain at my GitHub Pages hostname.
+Then I enter that same subdomain in the repository's Pages settings, so GitHub knows which website to serve.
+The DNS target is just the hostname, without a project path.
+-->
+
+---
+layout: center
+---
+
+# Also HTTPS
+
+<div style="max-width:740px; margin:24px auto 0; text-align:left; display:flex; flex-direction:column; gap:18px;">
+  <div style="background:var(--bg-alt); border:1px solid var(--hairline); border-radius:10px; padding:16px 20px;">
+    <div class="muted">GitHub requests a free certificate from Let's Encrypt</div>
+        <div>☑ Enforce HTTPS</div>
+  </div>
+</div>
+
+<!--
+Once GitHub checks the DNS, it requests a free certificate from Let's Encrypt. That lets the browser verify
+my domain and use HTTPS to encrypt the connection. I enable Enforce HTTPS so visitors use that secure connection.
+I don't have to install the certificate myself.
 -->
 
 ---
@@ -265,24 +275,6 @@ Over the years I have created many more applications that I published under a di
 I counted last week and I have 26 already. Only a few are actually finished and still used. The rest
 was just a fun small project.
 NOTE FOR RICO: swap the four named favourites for whichever you'd rather show off; "…and 22 more" = 26 minus the four.
--->
-
----
-layout: center
----
-
-# People google my name
-
-<div style="max-width:520px; margin:18px auto 0; text-align:left; background:var(--bg-alt); border:1px solid var(--hairline); border-radius:10px; padding:16px 18px;">
-  <div style="font-size:.8rem; color:#8ab4f8;">ricoapon.nl</div>
-  <div style="font-size:1.25rem; color:#8ab4f8; margin-top:2px;">Rico Apon</div>
-  <div style="font-size:.9rem; opacity:.7; margin-top:4px;">I maintain internal developer platforms and tools that help engineers build, release, and run software, including Bitbucket, Artifactory, and Kubernetes.
-</div>
-</div>
-
-<!--
-I am really happy and also proud that I have my own domain with all these apps. Sometimes people google my name and
-then they find my website. I think it is cool and I can highly recommend that you do the same.
 -->
 
 ---
