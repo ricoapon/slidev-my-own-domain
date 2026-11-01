@@ -207,24 +207,6 @@ manuals on what to exactly do.
 layout: center
 ---
 
-# One domain, many apps
-
-<div style="margin-top:18px; font-family:ui-monospace,monospace; font-size:1.15rem; line-height:1.9; display:inline-block; text-align:left;">
-<div><b style="color:var(--accent);">ricoapon.nl</b> <span style="opacity:.6;">— my portfolio</span></div>
-<div style="opacity:.85;">├─ spacepoints<span style="opacity:.6;">.ricoapon.nl</span></div>
-<div style="opacity:.85;">├─ arismachine<span style="opacity:.6;">.ricoapon.nl</span></div>
-<div style="opacity:.5;">└─ ...</div>
-</div>
-
-<!--
-I wanted to use my domain for many websites. The main website `ricoapon.nl` would be my portfolio website.
-Where would I host all my apps? I create subdomains like `spacepoints.ricoapon.nl` and `arismachine.ricoapon.nl`.
--->
-
----
-layout: center
----
-
 # How it actually works
 
 <div style="display:flex; gap:28px; align-items:center; margin-top:18px; flex-wrap:wrap;">
@@ -251,6 +233,24 @@ layout: center
 <!--
 When I create a new GitHub Pages right now, it is very simple: I create a new CNAME record on a subdomain and
 fill in the URL in the repository settings. GitHub also handles certificates, so the site is accessible through HTTPS.
+-->
+
+---
+layout: center
+---
+
+# One domain, many apps
+
+<div style="margin-top:18px; font-family:ui-monospace,monospace; font-size:1.15rem; line-height:1.9; display:inline-block; text-align:left;">
+<div><b style="color:var(--accent);">ricoapon.nl</b> <span style="opacity:.6;">— my portfolio</span></div>
+<div style="opacity:.85;">├─ spacepoints<span style="opacity:.6;">.ricoapon.nl</span></div>
+<div style="opacity:.85;">├─ arismachine<span style="opacity:.6;">.ricoapon.nl</span></div>
+<div style="opacity:.5;">└─ ...</div>
+</div>
+
+<!--
+I wanted to use my domain for many websites. The main website `ricoapon.nl` would be my portfolio website.
+Where would I host all my apps? I create subdomains like `spacepoints.ricoapon.nl` and `arismachine.ricoapon.nl`.
 -->
 
 ---
