@@ -13,7 +13,8 @@ background: /cover.jpg
 
 <!--
 Hi everybody, I am going to tell you a story today. I am going to talk about how it came to be that I bought my own 
-domain. Let's start with the most obvious thing.
+domain. For those that don't know: a domain is the text you type into your browser to visit a website, like google.com. 
+Let's start with the most obvious thing.
 -->
 
 ---
@@ -86,16 +87,9 @@ image: /deploy.jpg
 
 The necessary evil.
 
-<div style="display:inline-block; width:104px; height:70px; border-radius:6px; overflow:hidden; margin-top:20px; box-shadow:0 6px 24px #000a;">
-  <div style="height:33.33%; background:#AE1C28;"></div>
-  <div style="height:33.33%; background:#ffffff;"></div>
-  <div style="height:33.34%; background:#21468B;"></div>
-</div>
-
 <!--
 Static websites means you can only host HTML/JS/CSS stuff. And yeah, that means you have to do JavaScript. I used
 Angular, so TypeScript. I am still not a fan of it, but yeah I can host it for free. You do what the job requires.
-I am Dutch after all.
 -->
 
 ---
@@ -118,7 +112,9 @@ layout: center
 ---
 
 <div style="max-width:460px; margin:0 auto; display:flex; flex-direction:column; gap:10px; text-align:left;">
-<div style="align-self:flex-end; max-width:80%; background:var(--accent); color:#fff; padding:10px 14px; border-radius:18px 18px 5px 18px; font-size:1rem; line-height:1.45;">yo Alain, try my new game 🎮<div style="font-size:.72rem; opacity:.85; margin-top:5px; word-break:break-all;">ricoapon.github.io/spacepoints</div></div>
+<div style="align-self:flex-end; max-width:80%; background:var(--accent); color:#fff; padding:10px 14px; 
+border-radius:18px 18px 5px 18px; font-size:1rem; line-height:1.45;">yo Alain, try my new game 🎮<div 
+style="font-size:.72rem; opacity:.85; margin-top:5px; word-break:break-all;">greent13.github.io/spacepoints</div></div>
 <div style="align-self:flex-start; max-width:80%; background:var(--bg-alt); color:var(--text); border:1px solid var(--hairline); padding:10px 14px; border-radius:18px 18px 18px 5px; font-size:1rem; line-height:1.45;">cool game 👍</div>
 <div style="align-self:flex-start; max-width:80%; background:var(--bg-alt); color:var(--text); border:1px solid var(--hairline); padding:10px 14px; border-radius:18px 18px 18px 5px; font-size:1rem; line-height:1.45;">terrible link though. why don't you just buy <b>ricoapon.nl</b>? 🤔</div>
 </div>
@@ -149,7 +145,9 @@ image: /unfinished.jpg
 
 # They're just hobby projects
 
-Half-finished · unpolished · abandoned the moment I lost interest.
+* Not finished
+* Not polished
+* Abandoned after a weekend
 
 <!--
 They are also just hobby projects. Most of them aren't polished, they are often not even finished. A lot of them
@@ -177,9 +175,9 @@ layout: cover
 background: /space.jpg
 ---
 
-# F*ck it — I bought ricoapon.nl
+# F*ck it
 
-<div class="text-2xl opacity-80 mt-2">No counterargument. Same day.</div>
+<div class="text-2xl opacity-80 mt-2">I bought ricoapon.nl the same day</div>
 
 <!--
 I didn't have a counterargument. So fuck it, let's buy a domain. I did it the same day that I talked to Alain. The domain
@@ -215,7 +213,7 @@ layout: center
 <div><b style="color:var(--accent);">ricoapon.nl</b> <span style="opacity:.6;">— my portfolio</span></div>
 <div style="opacity:.85;">├─ spacepoints<span style="opacity:.6;">.ricoapon.nl</span></div>
 <div style="opacity:.85;">├─ arismachine<span style="opacity:.6;">.ricoapon.nl</span></div>
-<div style="opacity:.5;">└─ …a subdomain per project</div>
+<div style="opacity:.5;">└─ ...</div>
 </div>
 
 <!--
@@ -243,8 +241,8 @@ layout: center
 
 - Add a <code>CNAME</code> record → point DNS at GitHub
 - Fill in the URL in the repository settings
-- GitHub does the HTTPS certificate for me
-- ...even <b>these slides</b> are served from it
+- GitHub handles the HTTPS certificate
+- Even <b>these slides</b> are served from it!
 
 </div>
 
@@ -256,15 +254,11 @@ fill in the URL in the repository settings. GitHub also handles certificates, so
 -->
 
 ---
-layout: center
+layout: cover
+background: /websites.jpg
 ---
 
 # 26 websites and counting
-
-<div class="mt-6" style="font-size:1.15rem; color:var(--text-secondary); line-height:1.9;">
-Dutch Wordle&nbsp;·&nbsp; Space Points&nbsp;·&nbsp; Aris Machine&nbsp;·&nbsp; Elite Four
-<div style="opacity:.7; margin-top:2px;">…and 22 more</div>
-</div>
 
 <!--
 Over the years I have created many more applications that I published under a different subdomain.
@@ -281,8 +275,9 @@ layout: center
 
 <div style="max-width:520px; margin:18px auto 0; text-align:left; background:var(--bg-alt); border:1px solid var(--hairline); border-radius:10px; padding:16px 18px;">
   <div style="font-size:.8rem; color:#8ab4f8;">ricoapon.nl</div>
-  <div style="font-size:1.25rem; color:#8ab4f8; margin-top:2px;">Rico Apon — projects &amp; apps</div>
-  <div style="font-size:.9rem; opacity:.7; margin-top:4px;">A collection of the things I build in my spare time…</div>
+  <div style="font-size:1.25rem; color:#8ab4f8; margin-top:2px;">Rico Apon</div>
+  <div style="font-size:.9rem; opacity:.7; margin-top:4px;">I maintain internal developer platforms and tools that help engineers build, release, and run software, including Bitbucket, Artifactory, and Kubernetes.
+</div>
 </div>
 
 <!--
@@ -297,21 +292,18 @@ background: /money.jpg
 
 # And the bill?
 
-<div class="text-xl opacity-80 mt-2">One final question.</div>
-
 <!--
 And there is one final question that I will answer to finish the story. I was bothered by the cost.
 How much did it actually cost me in the end?
 -->
 
 ---
-layout: statement
+layout: cover
+background: /end.jpg
 ---
 
-# €5 a year
-
-Thank you for listening!
+# Thank you for listening!
 
 <!--
-Only 5 euro's a year. Thank you for listening to my presentation!
+Only 5 euros a year. Thank you for listening to my presentation!
 -->
