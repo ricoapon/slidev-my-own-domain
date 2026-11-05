@@ -88,8 +88,8 @@ image: /deploy.jpg
 The necessary evil.
 
 <!--
-Static websites means you can only host HTML/JS/CSS stuff. And yeah, that means you have to do JavaScript. I used
-Angular, so TypeScript. I am still not a fan of it, but yeah I can host it for free. You do what the job requires.
+Static websites means you can only host HTML/JS/CSS stuff. And yeah, that means you have to do JavaScript. I don't like
+JavaScript at all. I know the name sounds similar, but Java and JavaScript have as much in common as fun and funeral.
 -->
 
 ---
@@ -294,8 +294,8 @@ layout: cover
 background: /end.jpg
 ---
 
-# Thank you for listening!
+# What is stopping you?
 
 <!--
-Only 5 euros a year. Thank you for listening to my presentation!
+Only 5 euros a year. So what is stopping you from buying your own domain? Thank you for listening!
 -->
