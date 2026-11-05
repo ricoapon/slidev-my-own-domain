@@ -1,4 +1,4 @@
-## How A Friend Convinced Me To Buy My Own Domain
+## The Story Of How I Bought My Domain
 
 For years I published my side projects on free hosting and just lived with the clunky `greent13.github.io/elitefour`
 links it generated for me. Buying a domain felt like a waste of money for what were, after all, just unfinished 

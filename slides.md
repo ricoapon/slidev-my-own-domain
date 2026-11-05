@@ -3,17 +3,17 @@ theme: '@ricoapon/slidev-theme-narrative'
 colorSchema: dark
 themeConfig:
   accent: '#0070F3'
-title: How A Friend Convinced Me To Buy My Own Domain
+title: The Story Of How I Bought My Domain
 transition: slide-left
 layout: cover
 background: /cover.jpg
 ---
 
-# How A Friend Convinced Me To Buy My Own <u>Domain</u>
+# The Story Of How I Bought My <u>Domain</u>
 
 <!--
 Hi everybody, I am going to tell you a story today. I am going to talk about how it came to be that I bought my own 
-domain. For those that don't know: a domain is the text you type into your browser to visit a website, like google.com. 
+domain. And I hope that after this presentation, you will be inspired to do the same! 
 Let's start with the most obvious thing.
 -->
 
