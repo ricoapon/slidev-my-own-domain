@@ -160,7 +160,7 @@ layout: statement
 
 <div style="max-width: 780px; text-align:center;">
 <div style="font-size:1.9rem; line-height:1.35; font-weight:600;">
-"This is your biggest hobby. You spend so much time on it. <span class="accent">How can money ever be the argument?</span> Besides, it looks <span class="accent">way more professional</span>."
+"How can <span class="accent">money</span> ever be the argument?"
 </div>
 <div style="margin-top:1.2rem; opacity:.6;">— Alain</div>
 </div>
