@@ -3,13 +3,13 @@ theme: '@ricoapon/slidev-theme-narrative'
 colorSchema: dark
 themeConfig:
   accent: '#0070F3'
-title: The Story Of How I Bought My Domain
+title: The Story Of How I Bought My Own Domain
 transition: slide-left
 layout: cover
 background: /cover.jpg
 ---
 
-# The Story Of How I Bought My <u>Domain</u>
+# The Story Of How I Bought My Own <u>Domain</u>
 
 <!--
 Hi everybody, I am going to tell you a story today. I am going to talk about how it came to be that I bought my own 
