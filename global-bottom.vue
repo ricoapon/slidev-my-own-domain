@@ -10,6 +10,8 @@ const { next, currentPage, total } = useNav()
 // Always start paused.
 const running = ref(false)
 const elapsed = ref(0)
+const hidden = ref(false)
+let hideTimeout = 0
 let lastTs = 0
 let raf = 0
 
@@ -50,6 +52,9 @@ function toggle() {
   // Restart cleanly if we had stopped on the last slide.
   if (!running.value && elapsed.value >= DURATION) elapsed.value = 0
   running.value = !running.value
+  if (running.value && !hideTimeout) {
+    hideTimeout = window.setTimeout(() => { hidden.value = true }, 1000)
+  }
 }
 
 function onKey(e: KeyboardEvent) {
@@ -67,6 +72,7 @@ onMounted(() => {
   window.addEventListener('keydown', onKey)
 })
 onUnmounted(() => {
+  window.clearTimeout(hideTimeout)
   cancelAnimationFrame(raf)
   window.removeEventListener('keydown', onKey)
 })
@@ -75,7 +81,7 @@ onUnmounted(() => {
 <template>
   <div
     class="slide-timer print:hidden"
-    :class="{ 'is-paused': !running }"
+    :class="{ 'is-paused': !running, 'is-hidden': hidden }"
     :title="running ? 'Auto-advance ON · A: pause · R: reset' : 'Auto-advance PAUSED · A: resume · R: reset'"
     @click="toggle"
   >
@@ -113,6 +119,7 @@ onUnmounted(() => {
 }
 .slide-timer:hover { opacity: 1; }
 .slide-timer.is-paused { opacity: 0.65; }
+.slide-timer.is-hidden { opacity: 0; pointer-events: none; }
 .slide-timer__label {
   position: absolute;
   inset: 0;
